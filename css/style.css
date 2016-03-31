@@ -1,0 +1,423 @@
+`/* CSS Document */
+
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+	
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	font-size:0.825em;
+	color:#000;
+	 background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.image-header{
+position:relative;
+}
+
+.title{
+
+position: absolute;
+top:120px;
+left:0px;
+font-size:22px;
+font-weight:bold;
+color: black;
+}
+
+.right-align{
+float:right;
+padding:20px;
+}
+
+
+.slogan{
+
+	/* The slogan text */
+	
+	position: absolute;	
+	top:40px;
+	left:320px;
+	font-family:forte,"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	font-size:45px;
+	font-weight:normal;
+	color:#fff;
+	}
+
+#skipnav {
+ top:-25px;
+  position: absolute;
+  right: 0;
+  }
+  
+.callout{
+font-weight:bold;
+font-size:16px;
+}
+/* Hyperlink Styles: */
+
+a{
+text-decoration:none;
+}
+a, a:visited {
+	color:#CC33CC;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+/* Headings: */
+
+h1,h2,h3{
+	font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+	text-shadow:0 1px 1px black;
+}
+
+h1{
+	/* The logo text */
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+}
+
+
+
+h2{
+	font-size:1.2em;
+	font-weight:normal;
+	letter-spacing:0.01em;
+	text-transform:uppercase;
+}
+
+#h4 { 
+   position: absolute; 
+   top: 180px; 
+   left: 5px; 
+   width: 100%; 
+}
+
+#h4 .overlay { 
+    
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   font-size:12px; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgb(0, 0, 0,0.7);
+ 
+}
+.callout-image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+p{
+	line-height:1.5em;
+	padding-bottom:0em;
+	
+}
+
+#splitPanes { 
+  overflow:none; 
+  width: 100%; 
+  background: gray;
+    
+}
+
+.left{float:left;width: 47%;}
+.right{float:right;width: 47%; }
+
+.right li{
+
+list-style-position: outside;
+list-style-image: url(../img/bullet.gif);
+list-style-type: circle;
+padding: 6px;
+margin: 2px;
+
+}
+
+
+
+.line{
+	/* The dividing line: */
+	height:2px;
+	background-color:#24404c;
+	border-bottom:2px solid #416371;
+	margin-top:4em;
+	margin-bottom:2em;
+	overflow:hidden;
+}
+
+
+.page-nav{
+float:right;
+margin-right:50px;
+}
+.page-nav li{
+
+list-style-position: outside;
+list-style-type: none;
+padding: 2px;
+margin: 2px;
+}
+
+
+.articleasdas{
+border:2px solid black;
+position:relative;
+overflow:hidden;
+
+}
+
+article .line{
+	/* The dividing line inside of the article is darker: */
+	background-color:#15242a;
+	border-bottom-color:#204656;
+	margin:1.3em 0;
+}
+
+
+
+
+
+footer .line{
+	margin:2em 0;
+}
+
+nav{
+	
+	padding:0 5px;
+	position:absolute;
+	left:0px;
+	top:12em;
+	
+	
+
+	
+}
+
+/* The clearfix hack to clear the floats: */
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* The navigation styling: */
+
+nav ul li{
+	display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#565656;
+	display:block;
+	float:left;
+	font-size:1.005em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+ article, figure{
+	/* Applying CSS3 rounded corners: */
+	
+	border:0px solid #a1a1a1;
+    background:#fff;
+	border-radius:10px;
+}
+
+/* Article styles: */
+
+#page{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+.container{
+border:0px solid black;
+}
+
+
+article{
+	background-color:#fff;
+	margin:0em 0;
+	padding:10px;
+	
+	
+}
+
+.article figure{
+	border:3px solid #142830;
+	float:right;
+	height:230px;
+	margin-left:15px;
+	overflow:hidden;
+	width:auto;
+}
+
+#mini{
+	border:3px solid #142830;
+	float:left;
+	height:120px;
+	margin-left:15px;
+	overflow:hidden;
+	width:120px;
+}
+
+
+
+figure img{
+	margin-left:0px;
+}
+
+.ranking{
+width:100%;
+
+}
+
+.ranking td
+{
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+	
+}
+
+.ranking td span
+{
+    width: 40px;
+	height:40px;
+	padding-botton:2px;
+	background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.ranking tr:nth-child(even){background:#FFE1FF;} 
+.ranking tr:nth-child(odd) {background: #FFF;}
+
+.tLogoAUS{background-image: url('../img/team-logo/s-Aus-logo.jpg');}
+.tLogoIndia{ background-image: url('../img/team-logo/s-India-logo.jpg');}
+.tLogoSriLanka{ background-image: url('../img/team-logo/s-SriLanka-logo.jpg');}
+.tLogoEngland{ background-image: url('../img/team-logo/s-England-logo.jpg');}
+.tLogoSouthAfrica{ background-image: url('../img/team-logo/s-sa-logo.jpg');}
+.tLogoPakistan{ background-image: url('../img/team-logo/s-Pak-logo.png');}
+.tLogoNewZealand{ background-image: url('../img/team-logo/s-NZ-logo.jpg');}
+.tLogoWestIndies{ background-image: url('../img/team-logo/s-WestIndies-logo.jpg');}
+.tLogoBanglaDesh{ background-image: url('../img/team-logo/s-BanglaDesh-logo.jpg');}
+.tLogoZimbabwe{ background-image: url('../img/team-logo/s-ZM-logo.jpg');}
+.tLogoIreland{ background-image: url('../img/team-logo/s-Ireland-logo.jpg');}
+.tLogoAfghanistan{ background-image: url('../img/team-logo/s-Afg-logo.jpg');}
+
+/*New CSS*/
+.datesbody p{
+line-height:2.0px;
+}
+.callout {
+font-weight:bold;
+}
+figcaption{
+margin:0;
+padding:0;
+text-align:center;
+color:#000000;
+}
+/*New CSS*/
+
+
+#contactinfo label {
+  display: block;
+  position: relative;
+  margin: 12px 5px;
+}
+#contactinfo input {
+  position: absolute;
+  left: 130px;
+  margin-bottom: 20px;
+}
+
+
+#join-form  label.error {
+    color: #FB3A3A;
+   
+    margin: 4px 0 5px 130px;
+    padding: 0;
+    text-align: left;
+    width: 220px;
+	
+}
+
+
+
+/* Footer styling: */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+}
+
+
+footer p{
+	margin-bottom:-2.5em;
+	position:relative;
+	color:black;
+}
+
+footer a,footer a:visited{
+	color:#000;
+	text-decoration:none;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+footer p.by{
+	float:left;
+	
+
+}
+
+a.up{
+	float:right;
+}
