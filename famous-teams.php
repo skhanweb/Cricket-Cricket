@@ -510,7 +510,7 @@
             
         <td> 10 </td>
             
-        <td><span class="tLogoBanglaDesh"></span> West Indies</td>
+        <td><span class="tLogoWestIndies"></span> West Indies</td>
             
         <td>32</td>
             
