@@ -40,7 +40,7 @@
                 </nav>
             
             </header>
-			    <div class="line"></div>
+			    <div class="line"></div> 
 			<section class="container"> 
 <!-- A new section with the articles -->
 
