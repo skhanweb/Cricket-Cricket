@@ -235,25 +235,25 @@
             
         <td>1</td>
             
-        <td> <span class="tLogoAUS"></span> Australia</td>
+        <td> <span class="tLogoIndia"></span> India</td>
             
-        <td>32</td>
+        <td>42</td>
             
-        <td>3950</td>
+        <td>5046</td>
             
-        <td>123</td>
+        <td>120</td>
           </tr>
           <tr> 
             
         <td>2</td>
             
-        <td><span class="tLogoSouthAfrica"></span> South Africa</td>
+        <td><span class="tLogoAUS"></span> Australia</td>
             
-        <td>23</td>
+        <td>40</td>
             
-        <td>2831</td>
+        <td>4320</td>
             
-        <td>123</td>
+        <td>108</td>
            </tr>
           <tr> 
             
@@ -261,59 +261,59 @@
             
         <td><span class="tLogoEngland"></span> England</td>
             
-        <td>30</td>
+        <td>50</td>
             
-        <td>3131</td>
+        <td>5253</td>
             
-        <td>104</td>
+        <td>105</td>
 		  </tr>
           <tr> 
             
         <td>4</td>
             
-        <td><span class="tLogoPakistan"></span> Pakistan</td>
+        <td><span class="tLogoNewZealand"></span> New Zealand</td>
             
-        <td>20</td>
+        <td>33</td>
             
-        <td>2064</td>
+        <td>3449</td>
             
-        <td>103</td>
+        <td>105</td>
 		   </tr>
           <tr> 
             
         <td>5</td>
             
-        <td><span class="tLogoIndia"></span> India</td>
+        <td><span class="tLogoSouthAfrica"></span> South Africa</td>
             
-        <td>23</td>
+        <td>36</td>
             
-        <td>2343</td>
+        <td>3537</td>
             
-        <td>102</td>
+        <td>98</td>
 		   </tr>
           <tr> 
             
         <td>6</td>
             
-        <td><span class="tLogoNewZealand"></span> New Zealand</td>
+        <td><span class="tLogoSriLanka"></span> Sri Lanka</td>
             
-        <td>26</td>
+        <td>46</td>
             
-        <td>2383</td>
+        <td>4191</td>
             
-        <td>92</td>
+        <td>91</td>
           </tr>
           <tr> 
             
         <td> 7 </td>
 		    
-        <td><span class="tLogoSriLanka"></span> Sri Lanka</td>
+        <td><span class="tLogoPakistan"></span> Pakistan</td>
             
-        <td>22</td>
+        <td>33</td>
             
-        <td>1986</td>
+        <td>2795</td>
             
-        <td>90</td>
+        <td>85</td>
 		  </tr>
           <tr> 
             
@@ -321,59 +321,59 @@
             
         <td><span class="tLogoWestIndies"></span> West Indies</td>
             
-        <td>19</td>
+        <td>33</td>
             
-        <td>1442</td>
+        <td>2675</td>
             
-        <td>76</td>
+        <td>81</td>
           </tr>
           <tr> 
             
         <td> 9 </td>
             
-        <td><span class="tLogoZimbabwe"></span> Zimbabwe</td>
+        <td><span class="tLogoBanglaDesh"></span> Bangladesh</td>
             
-        <td>8</td>
+        <td>26</td>
             
-        <td>322</td>
+        <td>1566</td>
             
-        <td>40</td>
+        <td>60</td>
           </tr>
           <tr> 
             
         <td> 10 </td>
             
-        <td><span class="tLogoBanglaDesh"></span> Bangladesh</td>
+        <td><span class="tLogoAfghanistan"></span> Afghanistan</td>
             
-        <td>14</td>
+        <td>4</td>
             
-        <td>287</td>
+        <td>195</td>
             
-        <td>21</td>		
+        <td>49</td>		
           </tr>
           <tr> 
             
         <td> 11 </td>
             
-        <td><span class="tLogoIreland"></span> Ireland</td>
+        <td><span class="tLogoZimbabwe"></span> Zimbabwe</td>
             
-        <td>8</td>
+        <td>12</td>
             
-        <td>273</td>
+        <td>208</td>
             
-        <td>34</td>
+        <td>17</td>
           </tr>
           <tr> 
             
         <td> 12 </td>
             
-        <td><span class="tLogoAfghanistan"></span> Afghanistan</td>
+        <td><span class="tLogoIreland"></span> Ireland</td>
             
-        <td>9</td>
+        <td>3</td>
             
-        <td>304</td>
+        <td>0</td>
             
-        <td>34</td>
+        <td>0</td>
           </tr>
 		 	
         </tbody>
